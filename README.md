@@ -1,23 +1,17 @@
-# Flutter app in Zapp!
+# Formulário de envio
 
-A new Flutter project built with Zapp!
+## Descrição
 
-----
+O presente repositório reune um conjunto de atividades desenvolvidas durante a aula de Programação para Dispositivos Móveis II da FATEC.
 
-> To learn how to use Zapp! check out the [documentation](https://docs.zapp.run)
+## Tecnologias utilizadas
 
-----
+![Flutter](https://img.shields.io/badge/Flutter-02569B?style=for-the-badge&logo=flutter&logoColor=white)
+![Dart](https://img.shields.io/badge/Dart-0175C2?style=for-the-badge&logo=dart&logoColor=white)
 
-## Getting Started
+## Entregas
 
-This project is a starting point for a Flutter application.
-
-A few resources to get you started if this is your first Flutter project:
-
-- [Lab: Write your first Flutter app](https://docs.flutter.dev/get-started/codelab)
-- [Cookbook: Useful Flutter samples](https://docs.flutter.dev/cookbook)
-
-For help getting started with Flutter development, view the
-[online documentation](https://docs.flutter.dev/), which offers tutorials,
-samples, guidance on mobile development, and a full API reference.
-
+| Atividade          | Documentação                                                                                                         |
+|--------------------|----------------------------------------------------------------------------------------------------------------------|
+| Primeira atividade | [Concluída (clique para acessar)](https://github.com/gioliveirass/fatec-PDMII-submissionForm/tree/first-task#readme) |
+| Segunda atividade  | Em desenvolvimento...                                                                                                |
