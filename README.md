@@ -1,23 +1,19 @@
-# Flutter app in Zapp!
+# Descrição da primeira atividade
 
-A new Flutter project built with Zapp!
+Para primeira entrega, foi desenvolvido um formulário que armazena as seguintes informações:
+- Nome (obrigatório);
+- Endereço (obrigatório);
+- Número (obrigatório);,
+- Complemento (obrigatório);
+- UF (obrigatório);
+- CEP (obrigatório).
 
-----
+Caso alguma das informações obrigatórias não sejam forncidas, o formulário não é enviado e fica destacado em vermelho, além de informar ao usuário a informação que está em falta.
 
-> To learn how to use Zapp! check out the [documentation](https://docs.zapp.run)
+Caso todas as informações sejam inseridas, informa ao usuário que o formulário foi enviado com sucesso.
 
-----
+Caso o envio das informações seja cancelado, os inputs são limpados e informa ao usuário que a operação foi cancelada.
 
-## Getting Started
+# Demonstração da primeira atividade
 
-This project is a starting point for a Flutter application.
-
-A few resources to get you started if this is your first Flutter project:
-
-- [Lab: Write your first Flutter app](https://docs.flutter.dev/get-started/codelab)
-- [Cookbook: Useful Flutter samples](https://docs.flutter.dev/cookbook)
-
-For help getting started with Flutter development, view the
-[online documentation](https://docs.flutter.dev/), which offers tutorials,
-samples, guidance on mobile development, and a full API reference.
-
+![Primeira-entrega](https://github.com/gioliveirass/fatec-PDMII-submissionForm/assets/78885451/ffb14401-582e-43ed-9138-341ba9269201)
