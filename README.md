@@ -1,17 +1,11 @@
-# Formulário de envio
+# Descrição da segunda atividade
 
-## Descrição
+Para segunda entrega, foi desenvolvida uma nova página para vizualizar os dados cadastrados a partir do formulário desenvolvido na primeira atividade.
 
-O presente repositório reune um conjunto de atividades desenvolvidas durante a aula de Programação para Dispositivos Móveis II da FATEC.
+Só é possível acessar a página de resultados no caso de todas as informações obrigatórias terem sido inseridas na página do formulário.
 
-## Tecnologias utilizadas
+Uma vez na página de resultados, é possível vizualizar as informações cadastradas e retornar a página do formulário.
 
-![Flutter](https://img.shields.io/badge/Flutter-02569B?style=for-the-badge&logo=flutter&logoColor=white)
-![Dart](https://img.shields.io/badge/Dart-0175C2?style=for-the-badge&logo=dart&logoColor=white)
+# Demonstração da segunda atividade
 
-## Entregas
-
-| Atividade          | Documentação / Código                                                                                                |
-|--------------------|----------------------------------------------------------------------------------------------------------------------|
-| Primeira atividade | [Concluída (clique para acessar)](https://github.com/gioliveirass/fatec-PDMII-submissionForm/tree/first-task)        |
-| Segunda atividade  | Em desenvolvimento...                                                                                                |
+![Segunda-entrega](https://github.com/gioliveirass/fatec-PDMII-submissionForm/assets/78885451/bfc425b5-31b9-4f67-9a05-2f863dc7a637)
