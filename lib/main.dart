@@ -10,12 +10,83 @@ class MyApp extends StatelessWidget {
   @override
   Widget build(BuildContext context) {
     return MaterialApp(
-      title: 'Formulário de envio',
-      home: Forms(), 
+      title: 'Menu de navegação',
+      home: FormPage(), 
     );
   }
 }
 
+class FormPage extends StatelessWidget {
+  @override
+  Widget build(BuildContext context) {
+    return Scaffold(
+       appBar: AppBar(
+        title: const Text('Formulário de cadastro'),
+       ),
+       body: Center(
+        child: Forms()
+       )
+    );
+  }
+}
+
+class ResultPage extends StatelessWidget {
+  final String name;  
+  final String address;
+  final String number;
+  final String complement;
+  final String uf;
+  final String cep;
+
+  const ResultPage(
+    {
+      Key? key, 
+      required this.name, 
+      required this.address,
+      required this.number,
+      required this.complement,
+      required this.uf,
+      required this.cep,
+    }
+  ) : super(key: key);
+
+  @override
+  Widget build(BuildContext context) {
+    return Scaffold(
+      appBar: AppBar(title: const Text("Resultado do cadastro"),),
+      body: Align(
+        alignment: Alignment.center,
+        child: Column(
+          mainAxisSize: MainAxisSize.min,
+          children: [ 
+            const Text(
+              'Informações cadastradas',
+              style: TextStyle(fontSize: 24.0, color: Colors.blue),
+            ),  
+            const SizedBox(height: 100.0),
+            Text("Nome: " + name, style:  const TextStyle(fontSize: 24.0, color: Colors.black)),
+            Text("Endereço: " + address, style:  const TextStyle(fontSize: 24.0, color: Colors.black)),
+            Text("Número: " + number, style:  const TextStyle(fontSize: 24.0, color: Colors.black)),
+            Text("Complemento: " + complement, style:  const TextStyle(fontSize: 24.0, color: Colors.black)),
+            Text("UF: " + uf, style:  const TextStyle(fontSize: 24.0, color: Colors.black)),
+            Text("CEP: " + cep, style:  const TextStyle(fontSize: 24.0, color: Colors.black)),
+            const SizedBox(height: 100.0),
+            ElevatedButton(
+              onPressed: () {
+                Navigator.push( context,
+                    MaterialPageRoute(builder: (context) => FormPage()),
+                );
+              },
+              child: const Text('Voltar'),
+            ),
+          ],
+        )
+      ),
+    );
+  }
+
+
+}
 
 class Forms extends StatefulWidget {
   @override
@@ -93,6 +164,17 @@ class FormState extends State<Forms> {
         changeTextColor(Colors.blue);
         changeBorderColor(Colors.grey);
         _result = "Envio realizado com sucesso";
+
+        Navigator.push( context,
+          MaterialPageRoute(builder: (context) => ResultPage(
+            name: name, 
+            address: address,
+            number: number,
+            complement: complement,
+            uf: uf,
+            cep: cep
+          )),
+        );
       }
     });
   }
@@ -124,9 +206,6 @@ class FormState extends State<Forms> {
   @override
   Widget build(BuildContext context) {
     return Scaffold(
-      appBar: AppBar(
-        title: const Text('Formulário de envio'),
-      ),
       body: Align(
          alignment: Alignment.topCenter,
          child: Column(
