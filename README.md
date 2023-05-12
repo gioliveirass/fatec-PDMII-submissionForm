@@ -14,4 +14,4 @@ O presente repositório reune um conjunto de atividades desenvolvidas durante a 
 | Atividade          | Documentação / Código                                                                                                |
 |--------------------|----------------------------------------------------------------------------------------------------------------------|
 | Primeira atividade | [Concluída (clique para acessar)](https://github.com/gioliveirass/fatec-PDMII-submissionForm/tree/first-task)        |
-| Segunda atividade  | Em desenvolvimento...                                                                                                |
+| Segunda atividade  | [Concluída (clique para acessar)](https://github.com/gioliveirass/fatec-PDMII-submissionForm/tree/second-task)       |                                          
